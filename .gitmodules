@@ -1,3 +1,6 @@
 [submodule "FishLampPrerelease"]
 	path = FishLampPrerelease
 	url = https://github.com/fishlamp/FishLampPrerelease
+[submodule "FishLampCore"]
+	path = FishLampCore
+	url = https://github.com/fishlamp/FishLampCore
