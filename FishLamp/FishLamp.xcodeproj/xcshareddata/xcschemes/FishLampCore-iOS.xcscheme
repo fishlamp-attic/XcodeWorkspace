@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "27FD307F1857851800579CFF"
-               BuildableName = "libFishLamp-iOS.a"
-               BlueprintName = "FishLamp-iOS"
-               ReferencedContainer = "container:FishLampTestLibraries.xcodeproj">
+               BlueprintIdentifier = "27DF7D54186A6A2E0033DD93"
+               BuildableName = "libFishLampCore-iOS.a"
+               BlueprintName = "FishLampCore-iOS"
+               ReferencedContainer = "container:FishLamp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "27FD308F1857851900579CFF"
-               BuildableName = "FishLamp-iOSTests.xctest"
-               BlueprintName = "FishLamp-iOSTests"
-               ReferencedContainer = "container:FishLampTestLibraries.xcodeproj">
+               BlueprintIdentifier = "27DF7D61186A6A2E0033DD93"
+               BuildableName = "FishLampCore-iOSTests.xctest"
+               BlueprintName = "FishLampCore-iOSTests"
+               ReferencedContainer = "container:FishLamp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

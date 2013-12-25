@@ -1,0 +1,14 @@
+PODS:
+  - FishLampCore (3.0.0)
+
+DEPENDENCIES:
+  - FishLampCore (from `FishLampCore`)
+
+EXTERNAL SOURCES:
+  FishLampCore:
+    :path: FishLampCore
+
+SPEC CHECKSUMS:
+  FishLampCore: 45a52e082a4222b97fc90e9a4582adf6dbaec199
+
+COCOAPODS: 0.28.0
