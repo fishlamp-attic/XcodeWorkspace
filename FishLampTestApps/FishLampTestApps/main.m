@@ -1,9 +1,9 @@
 //
 //  main.m
-//  FishLampTestTool
+//  FishLampTestApps
 //
 //  Created by Mike Fullerton on 12/24/13.
-//
+//  Copyright (c) 2013 FishLamp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

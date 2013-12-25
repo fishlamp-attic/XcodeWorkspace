@@ -1,27 +1,27 @@
 
-xcodeproj 'XcodeProject/FishLamp.xcodeproj'
+xcodeproj 'FishLampTestApps/FishLampTestApps.xcodeproj'
 
 #    fishlamp.ios.frameworks = 'Security', 'MobileCoreServices', 'SystemConfiguration'
 #    fishlamp.osx.frameworks = 'CoreServices', 'Security', 'SystemConfiguration', 'ApplicationServices', 'Quartz', 'QuartzCore', 'CoreFoundation',  'Foundation'
 
 # pod 'FishLampCore', :path => 'FishLampCore'
 
-target :"FishLamp-iOS" do
-    platform :ios, '7.0'
-end
-
-target :"FishLamp-OSX-Universal" do
-    platform :osx, '10.6'
-end
-
-target :"FishLamp-OSX" do
+target :"FishLampTestCoreApp" do
     platform :osx, '10.7'
+ 	pod 'FishLampCore', :path => 'FishLampCore'
 end
 
-target :"FishLampTestTool" do
-    platform :osx, '10.7'
-	pod 'FishLampPrerelease', :path => 'FishLampPrerelease'
-end
+# target :"FishLamp-OSX-Universal" do
+#     platform :osx, '10.6'
+# end
+# 
+# target :"FishLamp-OSX" do
+# end
+
+# target :"FishLampTestTool" do
+#     platform :osx, '10.7'
+# 	pod 'FishLampPrerelease', :path => 'FishLampPrerelease'
+# end
 
 
 
