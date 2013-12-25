@@ -1,0 +1,34 @@
+PODS:
+  - FishLampPrerelease (3.0.0):
+    - FishLampPrerelease/Core
+  - FishLampPrerelease/Core (3.0.0):
+    - FishLampPrerelease/Core/Assertions
+    - FishLampPrerelease/Core/Errors
+    - FishLampPrerelease/Core/Required
+    - FishLampPrerelease/Core/SimpleLogger
+    - FishLampPrerelease/Core/Strings
+  - FishLampPrerelease/Core/Assertions (3.0.0):
+    - FishLampPrerelease/Core/Errors
+    - FishLampPrerelease/Core/Strings
+  - FishLampPrerelease/Core/Errors (3.0.0):
+    - FishLampPrerelease/Core/Required
+    - FishLampPrerelease/Core/Strings
+  - FishLampPrerelease/Core/Required (3.0.0)
+  - FishLampPrerelease/Core/SimpleLogger (3.0.0):
+    - FishLampPrerelease/Core/Assertions
+    - FishLampPrerelease/Core/Errors
+    - FishLampPrerelease/Core/Required
+    - FishLampPrerelease/Core/Strings
+  - FishLampPrerelease/Core/Strings (3.0.0)
+
+DEPENDENCIES:
+  - FishLampPrerelease (from `FishLampPrerelease`)
+
+EXTERNAL SOURCES:
+  FishLampPrerelease:
+    :path: FishLampPrerelease
+
+SPEC CHECKSUMS:
+  FishLampPrerelease: 950f9790d1d1b841a5df785b7b064cac409639e4
+
+COCOAPODS: 0.28.0
