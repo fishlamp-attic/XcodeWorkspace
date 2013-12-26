@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "279B3E2D186CA52800BF2F49"
+               BuildableName = "FishLampCoreOSXTests.xctest"
+               BlueprintName = "FishLampCoreOSXTests"
+               ReferencedContainer = "container:FishLampTestApps.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

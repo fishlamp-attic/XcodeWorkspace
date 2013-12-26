@@ -10,12 +10,12 @@
 #import "FishLampCore.h"
 
 
-#define ASDF(BOB, FOO...) do  { \
-        NSLog(BOB); \
-        NSString* s = [NSString stringWithFormat:@"" FOO]; \
-        NSLog(s); \
-    } \
-    while(0)
+//#define ASDF(BOB, FOO...) do  { \
+//        NSLog(BOB); \
+//        NSString* s = [NSString stringWithFormat:@"" FOO]; \
+//        NSLog(s); \
+//    } \
+//    while(0)
 
 int main(int argc, const char * argv[])
 {
@@ -24,14 +24,18 @@ int main(int argc, const char * argv[])
 
     id object = nil;
 
-    ASDF(@"foo");
-    ASDF(@"foo", @"hi");
-    ASDF(@"foo", @"hi %@", @"mike");
+//    ASDF(@"foo");
+//    ASDF(@"foo", @"hi");
+//    ASDF(@"foo", @"hi %@", @"mike");
 
 //    FLAssertionFailed();
 
-    FLAssert(1 == 0, @"wth");
-    FLAssert(1 == 0);
+//    FLAssert(1 == 0, @"wth");
+//    FLAssert(1 == 0);
+
+    NSString* string = nil;
+
+    FLAssertStringIsNotEmpty(string, @"my string");
 
 //    FLAssertNotNil(object);
 

@@ -8,12 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		17F587F226844867AF4DDD1F /* libPods-FishLampTestCoreApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58550DF40BEC4AB496F0CD10 /* libPods-FishLampTestCoreApp.a */; };
+		24C90E4C0AB849D0BE303A6C /* libPods-FishLampCoreOSXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97FADBF5F6442DB8B39B57B /* libPods-FishLampCoreOSXTests.a */; };
+		279B3E1F186CA50300BF2F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF7E6C186A6B490033DD93 /* Foundation.framework */; };
+		279B3E22186CA50300BF2F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B3E21186CA50300BF2F49 /* main.m */; };
+		279B3E26186CA50300BF2F49 /* FishLampCoreOSX.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 279B3E25186CA50300BF2F49 /* FishLampCoreOSX.1 */; };
+		279B3E30186CA52800BF2F49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279B3E2F186CA52800BF2F49 /* XCTest.framework */; };
+		279B3E36186CA52800BF2F49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279B3E34186CA52800BF2F49 /* InfoPlist.strings */; };
+		279B3E38186CA52800BF2F49 /* FishLampCoreOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B3E37186CA52800BF2F49 /* FishLampCoreOSXTests.m */; };
 		27DF7E6D186A6B490033DD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF7E6C186A6B490033DD93 /* Foundation.framework */; };
 		27DF7E70186A6B490033DD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DF7E6F186A6B490033DD93 /* main.m */; };
 		27DF7E74186A6B490033DD93 /* FishLampTestApps.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27DF7E73186A6B490033DD93 /* FishLampTestApps.1 */; };
+		8DAA7DA1228246FAA5662C44 /* libPods-FishLampCoreOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965BA4726A7E416197565067 /* libPods-FishLampCoreOSX.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		279B3E3A186CA52800BF2F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DF7E61186A6B490033DD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DF7E68186A6B490033DD93;
+			remoteInfo = FishLampTestCoreApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		279B3E1C186CA50300BF2F49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				279B3E26186CA50300BF2F49 /* FishLampCoreOSX.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		27DF7E67186A6B490033DD93 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,16 +55,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		279B3E1E186CA50300BF2F49 /* FishLampCoreOSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FishLampCoreOSX; sourceTree = BUILT_PRODUCTS_DIR; };
+		279B3E21186CA50300BF2F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		279B3E24186CA50300BF2F49 /* FishLampCoreOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishLampCoreOSX-Prefix.pch"; sourceTree = "<group>"; };
+		279B3E25186CA50300BF2F49 /* FishLampCoreOSX.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FishLampCoreOSX.1; sourceTree = "<group>"; };
+		279B3E2E186CA52800BF2F49 /* FishLampCoreOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishLampCoreOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279B3E2F186CA52800BF2F49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		279B3E33186CA52800BF2F49 /* FishLampCoreOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishLampCoreOSXTests-Info.plist"; sourceTree = "<group>"; };
+		279B3E35186CA52800BF2F49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		279B3E37186CA52800BF2F49 /* FishLampCoreOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishLampCoreOSXTests.m; sourceTree = "<group>"; };
+		279B3E39186CA52800BF2F49 /* FishLampCoreOSXTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishLampCoreOSXTests-Prefix.pch"; sourceTree = "<group>"; };
+		279B3E3F186CA55C00BF2F49 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		27DF7E69186A6B490033DD93 /* FishLampTestCoreApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FishLampTestCoreApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DF7E6C186A6B490033DD93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27DF7E6F186A6B490033DD93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27DF7E72186A6B490033DD93 /* FishLampTestApps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishLampTestApps-Prefix.pch"; sourceTree = "<group>"; };
 		27DF7E73186A6B490033DD93 /* FishLampTestApps.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FishLampTestApps.1; sourceTree = "<group>"; };
-		3CA2B55D86874701A6289105 /* Pods-FishLampTestCoreApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishLampTestCoreApp.xcconfig"; path = "../Pods/Pods-FishLampTestCoreApp.xcconfig"; sourceTree = "<group>"; };
 		58550DF40BEC4AB496F0CD10 /* libPods-FishLampTestCoreApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FishLampTestCoreApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965BA4726A7E416197565067 /* libPods-FishLampCoreOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FishLampCoreOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97FADBF5F6442DB8B39B57B /* libPods-FishLampCoreOSXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FishLampCoreOSXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F267F10870A94B0F8E4FB2BF /* Pods-FishLampCoreOSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishLampCoreOSX.xcconfig"; path = "../Pods/Pods-FishLampCoreOSX.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		279B3E1B186CA50300BF2F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B3E1F186CA50300BF2F49 /* Foundation.framework in Frameworks */,
+				8DAA7DA1228246FAA5662C44 /* libPods-FishLampCoreOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279B3E2B186CA52800BF2F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B3E30186CA52800BF2F49 /* XCTest.framework in Frameworks */,
+				24C90E4C0AB849D0BE303A6C /* libPods-FishLampCoreOSXTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27DF7E66186A6B490033DD93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,13 +108,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279B3E20186CA50300BF2F49 /* FishLampCoreOSX */ = {
+			isa = PBXGroup;
+			children = (
+				279B3E21186CA50300BF2F49 /* main.m */,
+				279B3E25186CA50300BF2F49 /* FishLampCoreOSX.1 */,
+				279B3E23186CA50300BF2F49 /* Supporting Files */,
+			);
+			path = FishLampCoreOSX;
+			sourceTree = "<group>";
+		};
+		279B3E23186CA50300BF2F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279B3E24186CA50300BF2F49 /* FishLampCoreOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279B3E31186CA52800BF2F49 /* FishLampCoreOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				279B3E37186CA52800BF2F49 /* FishLampCoreOSXTests.m */,
+				279B3E32186CA52800BF2F49 /* Supporting Files */,
+			);
+			path = FishLampCoreOSXTests;
+			sourceTree = "<group>";
+		};
+		279B3E32186CA52800BF2F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279B3E33186CA52800BF2F49 /* FishLampCoreOSXTests-Info.plist */,
+				279B3E34186CA52800BF2F49 /* InfoPlist.strings */,
+				279B3E39186CA52800BF2F49 /* FishLampCoreOSXTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		27DF7E60186A6B490033DD93 = {
 			isa = PBXGroup;
 			children = (
+				279B3E3F186CA55C00BF2F49 /* Podfile */,
 				27DF7E6E186A6B490033DD93 /* FishLampTestApps */,
+				279B3E20186CA50300BF2F49 /* FishLampCoreOSX */,
+				279B3E31186CA52800BF2F49 /* FishLampCoreOSXTests */,
 				27DF7E6B186A6B490033DD93 /* Frameworks */,
 				27DF7E6A186A6B490033DD93 /* Products */,
-				3CA2B55D86874701A6289105 /* Pods-FishLampTestCoreApp.xcconfig */,
+				F267F10870A94B0F8E4FB2BF /* Pods-FishLampCoreOSX.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				27DF7E69186A6B490033DD93 /* FishLampTestCoreApp */,
+				279B3E1E186CA50300BF2F49 /* FishLampCoreOSX */,
+				279B3E2E186CA52800BF2F49 /* FishLampCoreOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +173,9 @@
 			children = (
 				27DF7E6C186A6B490033DD93 /* Foundation.framework */,
 				58550DF40BEC4AB496F0CD10 /* libPods-FishLampTestCoreApp.a */,
+				279B3E2F186CA52800BF2F49 /* XCTest.framework */,
+				965BA4726A7E416197565067 /* libPods-FishLampCoreOSX.a */,
+				E97FADBF5F6442DB8B39B57B /* libPods-FishLampCoreOSXTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +201,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		279B3E1D186CA50300BF2F49 /* FishLampCoreOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279B3E29186CA50300BF2F49 /* Build configuration list for PBXNativeTarget "FishLampCoreOSX" */;
+			buildPhases = (
+				423505DCE7F24825B6BC0FC4 /* Check Pods Manifest.lock */,
+				279B3E1A186CA50300BF2F49 /* Sources */,
+				279B3E1B186CA50300BF2F49 /* Frameworks */,
+				279B3E1C186CA50300BF2F49 /* CopyFiles */,
+				24BA5FB0E326429C810472F9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishLampCoreOSX;
+			productName = FishLampCoreOSX;
+			productReference = 279B3E1E186CA50300BF2F49 /* FishLampCoreOSX */;
+			productType = "com.apple.product-type.tool";
+		};
+		279B3E2D186CA52800BF2F49 /* FishLampCoreOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279B3E3C186CA52800BF2F49 /* Build configuration list for PBXNativeTarget "FishLampCoreOSXTests" */;
+			buildPhases = (
+				4328D543F42E42BEAB2637F3 /* Check Pods Manifest.lock */,
+				279B3E2A186CA52800BF2F49 /* Sources */,
+				279B3E2B186CA52800BF2F49 /* Frameworks */,
+				279B3E2C186CA52800BF2F49 /* Resources */,
+				9FE888F89BE24308B9911E46 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279B3E3B186CA52800BF2F49 /* PBXTargetDependency */,
+			);
+			name = FishLampCoreOSXTests;
+			productName = FishLampCoreOSXTests;
+			productReference = 279B3E2E186CA52800BF2F49 /* FishLampCoreOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		27DF7E68186A6B490033DD93 /* FishLampTestCoreApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27DF7E77186A6B490033DD93 /* Build configuration list for PBXNativeTarget "FishLampTestCoreApp" */;
@@ -124,6 +267,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = FishLamp;
+				TargetAttributes = {
+					279B3E2D186CA52800BF2F49 = {
+						TestTargetID = 27DF7E68186A6B490033DD93;
+					};
+				};
 			};
 			buildConfigurationList = 27DF7E64186A6B490033DD93 /* Build configuration list for PBXProject "FishLampTestApps" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -138,12 +286,70 @@
 			projectRoot = "";
 			targets = (
 				27DF7E68186A6B490033DD93 /* FishLampTestCoreApp */,
+				279B3E1D186CA50300BF2F49 /* FishLampCoreOSX */,
+				279B3E2D186CA52800BF2F49 /* FishLampCoreOSXTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		279B3E2C186CA52800BF2F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B3E36186CA52800BF2F49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
+		24BA5FB0E326429C810472F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-FishLampCoreOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3E151122FF5045A69E235E77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		423505DCE7F24825B6BC0FC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4328D543F42E42BEAB2637F3 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -173,9 +379,40 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-FishLampTestCoreApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9FE888F89BE24308B9911E46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-FishLampCoreOSXTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		279B3E1A186CA50300BF2F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B3E22186CA50300BF2F49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279B3E2A186CA52800BF2F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B3E38186CA52800BF2F49 /* FishLampCoreOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27DF7E65186A6B490033DD93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,7 +423,84 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		279B3E3B186CA52800BF2F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DF7E68186A6B490033DD93 /* FishLampTestCoreApp */;
+			targetProxy = 279B3E3A186CA52800BF2F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279B3E34186CA52800BF2F49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279B3E35186CA52800BF2F49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		279B3E27186CA50300BF2F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F267F10870A94B0F8E4FB2BF /* Pods-FishLampCoreOSX.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishLampCoreOSX/FishLampCoreOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279B3E28186CA50300BF2F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F267F10870A94B0F8E4FB2BF /* Pods-FishLampCoreOSX.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishLampCoreOSX/FishLampCoreOSX-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		279B3E3D186CA52800BF2F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishLampCoreOSXTests/FishLampCoreOSXTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FishLampCoreOSXTests/FishLampCoreOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		279B3E3E186CA52800BF2F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishLampCoreOSXTests/FishLampCoreOSXTests-Prefix.pch";
+				INFOPLIST_FILE = "FishLampCoreOSXTests/FishLampCoreOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		27DF7E75186A6B490033DD93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -257,7 +571,6 @@
 		};
 		27DF7E78186A6B490033DD93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA2B55D86874701A6289105 /* Pods-FishLampTestCoreApp.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FishLampTestApps/FishLampTestApps-Prefix.pch";
@@ -267,7 +580,6 @@
 		};
 		27DF7E79186A6B490033DD93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA2B55D86874701A6289105 /* Pods-FishLampTestCoreApp.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FishLampTestApps/FishLampTestApps-Prefix.pch";
@@ -278,6 +590,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		279B3E29186CA50300BF2F49 /* Build configuration list for PBXNativeTarget "FishLampCoreOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279B3E27186CA50300BF2F49 /* Debug */,
+				279B3E28186CA50300BF2F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279B3E3C186CA52800BF2F49 /* Build configuration list for PBXNativeTarget "FishLampCoreOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279B3E3D186CA52800BF2F49 /* Debug */,
+				279B3E3E186CA52800BF2F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27DF7E64186A6B490033DD93 /* Build configuration list for PBXProject "FishLampTestApps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

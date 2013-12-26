@@ -6,10 +6,17 @@ xcodeproj 'FishLampTestApps/FishLampTestApps.xcodeproj'
 
 # pod 'FishLampCore', :path => 'FishLampCore'
 
-target :"FishLampTestCoreApp" do
+target :"FishLampCoreOSX" do
     platform :osx, '10.7'
  	pod 'FishLampCore', :path => 'FishLampCore'
 end
+
+# target :"FishLampCoreOSXTests" do
+#    platform :osx, '10.7'
+# 	pod 'FishLampCore', :path => 'FishLampCore'
+# end
+
+
 
 # target :"FishLamp-OSX-Universal" do
 #     platform :osx, '10.6'

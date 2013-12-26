@@ -1,5 +1,37 @@
 PODS:
-  - FishLampCore (3.0.0)
+  - FishLampCore (3.0.0):
+    - FishLampCore/Assertions
+    - FishLampCore/Atomic
+    - FishLampCore/Errors
+    - FishLampCore/Exceptions
+    - FishLampCore/ObjcCompiling
+    - FishLampCore/ObjcPropertyDeclaring
+    - FishLampCore/Performing
+    - FishLampCore/StackTrace
+    - FishLampCore/Utils
+    - FishLampCore/Versioning
+  - FishLampCore/Assertions (3.0.0):
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/Atomic (3.0.0):
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/Errors (3.0.0):
+    - FishLampCore/ObjcCompiling
+    - FishLampCore/StackTrace
+  - FishLampCore/Exceptions (3.0.0):
+    - FishLampCore/Errors
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/ObjcCompiling (3.0.0)
+  - FishLampCore/ObjcPropertyDeclaring (3.0.0):
+    - FishLampCore/Atomic
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/Performing (3.0.0):
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/StackTrace (3.0.0):
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/Utils (3.0.0):
+    - FishLampCore/ObjcCompiling
+  - FishLampCore/Versioning (3.0.0):
+    - FishLampCore/ObjcCompiling
 
 DEPENDENCIES:
   - FishLampCore (from `FishLampCore`)
@@ -9,6 +41,6 @@ EXTERNAL SOURCES:
     :path: FishLampCore
 
 SPEC CHECKSUMS:
-  FishLampCore: 45a52e082a4222b97fc90e9a4582adf6dbaec199
+  FishLampCore: 6dbd532c69af7be7a5dd0551b502e32c6224470e
 
 COCOAPODS: 0.28.0
