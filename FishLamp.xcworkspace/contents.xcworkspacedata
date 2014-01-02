@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FishLampTestLibraries/FishLampTestLibraries.xcodeproj">
+      location = "group:FishLampTestApps/FishLampTestApps.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:FishLampTestApps/FishLampTestApps.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

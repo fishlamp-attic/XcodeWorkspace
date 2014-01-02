@@ -4,3 +4,33 @@
 [submodule "FishLampCore"]
 	path = FishLampCore
 	url = https://github.com/fishlamp/FishLampCore
+[submodule "XcodeBuildSupport"]
+	path = XcodeBuildSupport
+	url = https://github.com/fishlamp/XcodeBuildSupport
+[submodule "FishLampOSX"]
+	path = FishLampOSX
+	url = https://github.com/fishlamp/FishLampOSX
+[submodule "FishLampStrings"]
+	path = FishLampStrings
+	url = https://github.com/fishlamp/FishLampStrings
+[submodule "FishLampAsync"]
+	path = FishLampAsync
+	url = https://github.com/fishlamp/FishLampAsync
+[submodule "FishLampTimer"]
+	path = FishLampTimer
+	url = https://github.com/fishlamp/FishLampTimer
+[submodule "FishLampEvents"]
+	path = FishLampEvents
+	url = https://github.com/fishlamp/FishLampEvents
+[submodule "FishLampSimpleLogger"]
+	path = FishLampSimpleLogger
+	url = https://github.com/fishlamp/FishLampSimpleLogger
+[submodule "FishLampCodeGenerator"]
+	path = FishLampCodeGenerator
+	url = https://github.com/fishlamp/FishLampCodeGenerator
+[submodule "FishLampCommandLineTool"]
+	path = FishLampCommandLineTool
+	url = https://github.com/fishlamp/FishLampCommandLineTool
+[submodule "PackMule"]
+	path = PackMule
+	url = https://github.com/fishlamp/PackMule

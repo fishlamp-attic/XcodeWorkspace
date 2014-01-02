@@ -1,5 +1,11 @@
 PODS:
-  - FishLampCore (3.0.0):
+  - FishLampAsync (0.1.0):
+    - FishLampCore
+    - FishLampEvents
+    - FishLampSimpleLogger
+    - FishLampStrings
+    - FishLampTimer
+  - FishLampCore (0.1.0):
     - FishLampCore/Assertions
     - FishLampCore/Atomic
     - FishLampCore/Errors
@@ -10,37 +16,487 @@ PODS:
     - FishLampCore/StackTrace
     - FishLampCore/Utils
     - FishLampCore/Versioning
-  - FishLampCore/Assertions (3.0.0):
+  - FishLampCore/Assertions (0.1.0):
     - FishLampCore/ObjcCompiling
-  - FishLampCore/Atomic (3.0.0):
+  - FishLampCore/Atomic (0.1.0):
     - FishLampCore/ObjcCompiling
-  - FishLampCore/Errors (3.0.0):
+  - FishLampCore/Errors (0.1.0):
     - FishLampCore/ObjcCompiling
     - FishLampCore/StackTrace
-  - FishLampCore/Exceptions (3.0.0):
+  - FishLampCore/Exceptions (0.1.0):
     - FishLampCore/Errors
     - FishLampCore/ObjcCompiling
-  - FishLampCore/ObjcCompiling (3.0.0)
-  - FishLampCore/ObjcPropertyDeclaring (3.0.0):
+  - FishLampCore/ObjcCompiling (0.1.0)
+  - FishLampCore/ObjcPropertyDeclaring (0.1.0):
     - FishLampCore/Atomic
     - FishLampCore/ObjcCompiling
-  - FishLampCore/Performing (3.0.0):
+  - FishLampCore/Performing (0.1.0):
     - FishLampCore/ObjcCompiling
-  - FishLampCore/StackTrace (3.0.0):
+  - FishLampCore/StackTrace (0.1.0):
     - FishLampCore/ObjcCompiling
-  - FishLampCore/Utils (3.0.0):
+  - FishLampCore/Utils (0.1.0):
     - FishLampCore/ObjcCompiling
-  - FishLampCore/Versioning (3.0.0):
+  - FishLampCore/Versioning (0.1.0):
     - FishLampCore/ObjcCompiling
+  - FishLampEvents (0.1.0):
+    - FishLampCore
+  - FishLampOSX (0.1.0):
+    - FishLampCore
+    - FishLampOSX/ActivityLogViewController
+    - FishLampOSX/AnimatedImageView
+    - FishLampOSX/BreadcrumbBarViewController
+    - FishLampOSX/ButtonCell
+    - FishLampOSX/ClickableImageView
+    - FishLampOSX/CommandLineTool
+    - FishLampOSX/Core
+    - FishLampOSX/CustomButton
+    - FishLampOSX/ErrorWindowController
+    - FishLampOSX/FileDropTableViewController
+    - FishLampOSX/FramedView
+    - FishLampOSX/GlobalMenu
+    - FishLampOSX/Image
+    - FishLampOSX/ImagePlaceholderView
+    - FishLampOSX/LinkTextField
+    - FishLampOSX/ModelObjectDocument
+    - FishLampOSX/MouseTrackingView
+    - FishLampOSX/SpinningProgressView
+    - FishLampOSX/TextFieldCell
+    - FishLampOSX/TextViewController
+    - FishLampOSX/TextViewLogger
+    - FishLampOSX/Utils
+    - FishLampOSX/ViewAdditions
+    - FishLampOSX/Wizard
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ActivityLogViewController (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ActivityLog
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/AnimatedImageView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/Animation
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/BreadcrumbBarViewController (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/CoreTextUtils
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ButtonCell (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ClickableImageView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/CommandLineTool (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/BundleUtils
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/CommandLineProcessor
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/Core (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/CustomButton (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ErrorWindowController (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampOSX/Utils
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/FileDropTableViewController (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/FramedView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/GlobalMenu (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/Image (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ImagePlaceholderView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/LinkTextField (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/ModelObjectDocument (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/MouseTrackingView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/SpinningProgressView (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/TextFieldCell (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/TextViewController (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampOSX/ViewAdditions
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/TextViewLogger (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampOSX/ViewAdditions
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/Utils (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+    - FishLampPrerelease/Notifications
+  - FishLampOSX/ViewAdditions (0.1.0):
+    - FishLampCore
+    - FishLampOSX/Core
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampOSX/Wizard (0.1.0):
+    - FishLampCore
+    - FishLampOSX/BreadcrumbBarViewController
+    - FishLampOSX/Core
+    - FishLampOSX/FramedView
+    - FishLampOSX/ViewAdditions
+    - FishLampPrerelease/Animation
+    - FishLampPrerelease/Authentication
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Containers
+    - FishLampPrerelease/Geometry
+    - FishLampPrerelease/Keychain
+    - FishLampPrerelease/Networking/Activity
+  - FishLampPrerelease (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/ActivityLog
+    - FishLampPrerelease/Animation
+    - FishLampPrerelease/Authentication
+    - FishLampPrerelease/BundleUtils
+    - FishLampPrerelease/ByteBuffer
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/CodeGenerator
+    - FishLampPrerelease/ColorUtils
+    - FishLampPrerelease/CommandLineProcessor
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Containers
+    - FishLampPrerelease/CoreTextUtils
+    - FishLampPrerelease/Database
+    - FishLampPrerelease/Drawables
+    - FishLampPrerelease/Encoding
+    - FishLampPrerelease/Files
+    - FishLampPrerelease/Geometry
+    - FishLampPrerelease/Keychain
+    - FishLampPrerelease/ModelObject
+    - FishLampPrerelease/MoreStrings
+    - FishLampPrerelease/Networking
+    - FishLampPrerelease/Notifications
+    - FishLampPrerelease/ObjcRuntime
+    - FishLampPrerelease/ObjectDatabase
+    - FishLampPrerelease/RetryHandler
+    - FishLampPrerelease/Services
+    - FishLampPrerelease/Storage
+    - FishLampPrerelease/Testables
+    - FishLampPrerelease/UserPreferences
+    - FishLampPrerelease/Utils
+    - FishLampPrerelease/Widgets
+  - FishLampPrerelease/ActivityLog (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/ColorUtils
+  - FishLampPrerelease/Animation (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Geometry
+  - FishLampPrerelease/Authentication (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Keychain
+  - FishLampPrerelease/BundleUtils (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/ByteBuffer (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/CodeBuilder (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/MoreStrings
+    - FishLampStrings
+  - FishLampPrerelease/CodeGenerator (0.1.0):
+    - FishLampCore
+    - FishLampEvents
+    - FishLampPrerelease/BundleUtils
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Containers
+    - FishLampPrerelease/Files
+    - FishLampPrerelease/ModelObject
+    - FishLampPrerelease/ObjcRuntime
+    - FishLampStrings
+  - FishLampPrerelease/ColorUtils (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Compatibility
+  - FishLampPrerelease/CommandLineProcessor (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Compatibility (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Containers (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/CoreTextUtils (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Database (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/ModelObject
+    - FishLampPrerelease/ObjcRuntime
+  - FishLampPrerelease/Drawables (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/CoreTextUtils
+    - FishLampPrerelease/Geometry
+  - FishLampPrerelease/Encoding (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Encoding/Base64
+    - FishLampPrerelease/Encoding/Html
+    - FishLampPrerelease/Encoding/Json
+    - FishLampPrerelease/Encoding/Soap
+    - FishLampPrerelease/Encoding/Url
+    - FishLampPrerelease/Encoding/Xml
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Base64 (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Html (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Json (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Soap (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Url (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Encoding/Xml (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Utils
+  - FishLampPrerelease/Files (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Geometry (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Keychain (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/ModelObject (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/ObjcRuntime
+  - FishLampPrerelease/MoreStrings (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Networking (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/Activity
+    - FishLampPrerelease/Networking/DNS
+    - FishLampPrerelease/Networking/Errors
+    - FishLampPrerelease/Networking/HTTP
+    - FishLampPrerelease/Networking/Json
+    - FishLampPrerelease/Networking/Oauth
+    - FishLampPrerelease/Networking/ProtocolSupport
+    - FishLampPrerelease/Networking/Reachability
+    - FishLampPrerelease/Networking/Sinks
+    - FishLampPrerelease/Networking/Soap
+    - FishLampPrerelease/Networking/Streams
+    - FishLampPrerelease/Networking/Tcp
+    - FishLampPrerelease/Networking/XmlRpc
+  - FishLampPrerelease/Networking/Activity (0.1.0):
+    - FishLampCore
+    - FishLampEvents
+  - FishLampPrerelease/Networking/DNS (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/ProtocolSupport
+  - FishLampPrerelease/Networking/Errors (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Networking/HTTP (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/ProtocolSupport
+  - FishLampPrerelease/Networking/Json (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/HTTP
+  - FishLampPrerelease/Networking/Oauth (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/HTTP
+  - FishLampPrerelease/Networking/ProtocolSupport (0.1.0):
+    - FishLampAsync
+    - FishLampCore
+    - FishLampEvents
+    - FishLampPrerelease/Authentication
+    - FishLampPrerelease/BundleUtils
+    - FishLampPrerelease/CodeBuilder
+    - FishLampPrerelease/Encoding
+    - FishLampPrerelease/ModelObject
+    - FishLampPrerelease/Networking/Activity
+    - FishLampPrerelease/Networking/Errors
+    - FishLampPrerelease/Networking/Reachability
+    - FishLampPrerelease/Networking/Sinks
+    - FishLampPrerelease/Networking/Streams
+    - FishLampPrerelease/RetryHandler
+    - FishLampPrerelease/Services
+    - FishLampStrings
+    - FishLampTimer
+  - FishLampPrerelease/Networking/Reachability (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Networking/Sinks (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Networking/Soap (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/HTTP
+  - FishLampPrerelease/Networking/Streams (0.1.0):
+    - FishLampAsync
+    - FishLampCore
+    - FishLampEvents
+    - FishLampPrerelease/Networking/Sinks
+    - FishLampTimer
+  - FishLampPrerelease/Networking/Tcp (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/ProtocolSupport
+  - FishLampPrerelease/Networking/XmlRpc (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Networking/ProtocolSupport
+  - FishLampPrerelease/Notifications (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/ObjcRuntime (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/ObjectDatabase (0.1.0):
+    - FishLampAsync
+    - FishLampCore
+    - FishLampPrerelease/Database
+    - FishLampPrerelease/ModelObject
+    - FishLampPrerelease/Services
+    - FishLampPrerelease/Storage
+  - FishLampPrerelease/RetryHandler (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Services (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Storage (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Files
+  - FishLampPrerelease/Testables (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/UserPreferences (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Utils (0.1.0):
+    - FishLampCore
+  - FishLampPrerelease/Widgets (0.1.0):
+    - FishLampCore
+    - FishLampPrerelease/Compatibility
+    - FishLampPrerelease/Drawables
+  - FishLampSimpleLogger (0.1.0):
+    - FishLampCore
+    - FishLampStrings
+  - FishLampStrings (0.1.0):
+    - FishLampCore
+  - FishLampTimer (0.1.0):
+    - FishLampCore
 
 DEPENDENCIES:
+  - FishLampAsync (from `FishLampAsync`)
   - FishLampCore (from `FishLampCore`)
+  - FishLampEvents (from `FishLampEvents`)
+  - FishLampOSX (from `FishLampOSX`)
+  - FishLampPrerelease (from `FishLampPrerelease`)
+  - FishLampSimpleLogger (from `FishLampSimpleLogger`)
+  - FishLampStrings (from `FishLampStrings`)
+  - FishLampTimer (from `FishLampTimer`)
 
 EXTERNAL SOURCES:
+  FishLampAsync:
+    :path: FishLampAsync
   FishLampCore:
     :path: FishLampCore
+  FishLampEvents:
+    :path: FishLampEvents
+  FishLampOSX:
+    :path: FishLampOSX
+  FishLampPrerelease:
+    :path: FishLampPrerelease
+  FishLampSimpleLogger:
+    :path: FishLampSimpleLogger
+  FishLampStrings:
+    :path: FishLampStrings
+  FishLampTimer:
+    :path: FishLampTimer
 
 SPEC CHECKSUMS:
-  FishLampCore: 6dbd532c69af7be7a5dd0551b502e32c6224470e
+  FishLampAsync: c9dd9ce919a28e578e79e486954b52e7c5e218f3
+  FishLampCore: 8a37a0ba732f8ed19f98cf03d61e1513e4037393
+  FishLampEvents: b815c71018052666afd969f00fea55ae6b20d3af
+  FishLampOSX: 090425f3f9664bbe8483ed30ab8d1c0cb994020b
+  FishLampPrerelease: 35bfd8d3449ff416bd0aea475b18c6b5f034479c
+  FishLampSimpleLogger: 880413aa70065c77172b410b48aa930600dce192
+  FishLampStrings: ffc47f56d377ffe8181fa48d47ef1b87431bcbd9
+  FishLampTimer: 41e5c9c5f5cdb00ac3274cb5f3121cf695d12acd
 
-COCOAPODS: 0.28.0
+COCOAPODS: 0.29.0

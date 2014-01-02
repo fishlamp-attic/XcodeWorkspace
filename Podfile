@@ -1,15 +1,47 @@
 
 xcodeproj 'FishLampTestApps/FishLampTestApps.xcodeproj'
+workspace 'FishLamp.xcworkspace'
 
-#    fishlamp.ios.frameworks = 'Security', 'MobileCoreServices', 'SystemConfiguration'
-#    fishlamp.osx.frameworks = 'CoreServices', 'Security', 'SystemConfiguration', 'ApplicationServices', 'Quartz', 'QuartzCore', 'CoreFoundation',  'Foundation'
+platform :osx, '10.7'
 
-# pod 'FishLampCore', :path => 'FishLampCore'
 
-target :"FishLampCoreOSX" do
-    platform :osx, '10.7'
- 	pod 'FishLampCore', :path => 'FishLampCore'
+# pod 'FishLampCodeGenerator', :path => 'FishLampCodeGenerator'
+
+
+target :FishLampOSXTestApp do
+ 	platform :osx, '10.6'
+
+    pod 'FishLampCore', :path => '../FishLampCore'
+    pod 'FishLampStrings', :path => '../FishLampStrings'
+    pod 'FishLampSimpleLogger', :path => '../FishLampSimpleLogger'
+    pod 'FishLampTimer', :path => '../FishLampTimer'
+    pod 'FishLampEvents', :path => '../FishLampEvents'
+    pod 'FishLampAsync', :path => '../FishLampAsync'
+    pod 'FishLampPrerelease', :path => '../FishLampPrerelease'
+
+
+# 	pod 'FishLampCommandLineTool', :path => 'FishLampCommandLineTool'
+ 	pod 'FishLampOSX', :path => '../FishLampOSX'
 end
+
+
+# target :"FishLampCore-OSX-64-MRC" do
+# 	xcodeproj 'FishLampCore/XcodeProject/FishLampCore.xcodeproj'
+# 	platform :osx, '10.6'
+# end
+
+
+# xcodeproj 'FishLampTestApps/FishLampTestApps.xcodeproj'
+# 
+# #    fishlamp.ios.frameworks = 'Security', 'MobileCoreServices', 'SystemConfiguration'
+# #    fishlamp.osx.frameworks = 'CoreServices', 'Security', 'SystemConfiguration', 'ApplicationServices', 'Quartz', 'QuartzCore', 'CoreFoundation',  'Foundation'
+# 
+# # pod 'FishLampCore', :path => 'FishLampCore'
+# 
+# target :"FishLampCoreOSX" do
+#     platform :osx, '10.7'
+#  	pod 'FishLampCore', :path => 'FishLampCore'
+# end
 
 # target :"FishLampCoreOSXTests" do
 #    platform :osx, '10.7'

@@ -38,6 +38,16 @@
                ReferencedContainer = "container:FishLampTestApps.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "276F95131874B5AA0072207C"
+               BuildableName = "FishLampOSXTestAppTests.xctest"
+               BlueprintName = "FishLampOSXTestAppTests"
+               ReferencedContainer = "container:FishLampTestApps.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
