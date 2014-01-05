@@ -1,0 +1,10 @@
+//
+//  FishLamp-TestApp-OSX-32-MRC.xcconfig
+//  FishLamp
+//
+//  Created by Mike Fullerton on 9/9/13.
+//  Copyright (c) 2013 Mike Fullerton. All rights reserved.
+//
+
+#include "XcodeBuildSupportConfigs/TargetSettings/OSX-32-MRC.xcconfig"
+#include "FishLamp-TestApp-OSX/FishLamp-TestApp-SharedTargetSettings.xcconfig"

@@ -1,0 +1,1 @@
+/Users/mike/Enlistments/github.com/fishlamp/FishLampStrings/FishLampStrings.podspec
