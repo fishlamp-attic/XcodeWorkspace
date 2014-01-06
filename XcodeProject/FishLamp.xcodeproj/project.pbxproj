@@ -6321,6 +6321,11 @@
 		2752C1221878CE5500B14478 /* FLDecoratedAsyncQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C0AA1878CE5400B14478 /* FLDecoratedAsyncQueue.m */; };
 		2752C1231878CE5500B14478 /* FLDecoratedAsyncQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C0AA1878CE5400B14478 /* FLDecoratedAsyncQueue.m */; };
 		2752C1241878CE5500B14478 /* FLDecoratedAsyncQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C0AA1878CE5400B14478 /* FLDecoratedAsyncQueue.m */; };
+		2752C1291879E89200B14478 /* FLFiloCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C1281879E89200B14478 /* FLFiloCache.m */; };
+		2752C12A1879E89200B14478 /* FLFiloCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C1281879E89200B14478 /* FLFiloCache.m */; };
+		2752C12B1879E89200B14478 /* FLFiloCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C1281879E89200B14478 /* FLFiloCache.m */; };
+		2752C12C1879E89200B14478 /* FLFiloCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C1281879E89200B14478 /* FLFiloCache.m */; };
+		2752C12D1879E89200B14478 /* FLFiloCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752C1281879E89200B14478 /* FLFiloCache.m */; };
 		276F953C18788CF10072207C /* libFishLamp-OSX-64-MRC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A43AC415CDCCCB001CB13E /* libFishLamp-OSX-64-MRC.a */; };
 		276F953D18788CF70072207C /* libFishLamp-OSX-Universal-MRC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CBC1F416768BA600753D0A /* libFishLamp-OSX-Universal-MRC.a */; };
 		276F953E18788D010072207C /* libFishLamp-OSX-64-ARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27314C79165328400027850D /* libFishLamp-OSX-64-ARC.a */; };
@@ -9162,6 +9167,9 @@
 		2752C0AA1878CE5400B14478 /* FLDecoratedAsyncQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDecoratedAsyncQueue.m; sourceTree = "<group>"; };
 		2752C0AB1878CE5400B14478 /* FLOperationStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLOperationStarter.h; sourceTree = "<group>"; };
 		2752C0AC1878CE5400B14478 /* FLQueueableAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLQueueableAsyncOperation.h; sourceTree = "<group>"; };
+		2752C1261879E80800B14478 /* FLPromise_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLPromise_Internal.h; path = ../../../../../FishLampAsync/Classes/Utils/FLPromise_Internal.h; sourceTree = "<group>"; };
+		2752C1271879E89200B14478 /* FLFiloCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLFiloCache.h; path = ../../../../../FishLampAsync/Classes/Utils/FLFiloCache.h; sourceTree = "<group>"; };
+		2752C1281879E89200B14478 /* FLFiloCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLFiloCache.m; path = ../../../../../FishLampAsync/Classes/Utils/FLFiloCache.m; sourceTree = "<group>"; };
 		279B52841872355C003E866A /* FishLamp-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishLamp-Tests-Info.plist"; sourceTree = "<group>"; };
 		279B52861872355C003E866A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		279B528A1872355C003E866A /* FishLamp-Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishLamp-Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -13101,6 +13109,9 @@
 				2752C0AA1878CE5400B14478 /* FLDecoratedAsyncQueue.m */,
 				2752C0AB1878CE5400B14478 /* FLOperationStarter.h */,
 				2752C0AC1878CE5400B14478 /* FLQueueableAsyncOperation.h */,
+				2752C1261879E80800B14478 /* FLPromise_Internal.h */,
+				2752C1271879E89200B14478 /* FLFiloCache.h */,
+				2752C1281879E89200B14478 /* FLFiloCache.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -13670,6 +13681,7 @@
 				2752BFD51878AE3100B14478 /* FLFramedView.m in Sources */,
 				2752B40A1878A78300B14478 /* ZFApiHttpGetLoadPhotoJsonRequest.m in Sources */,
 				2752B6671878A78400B14478 /* ZFApiHttpPostLoadPhotoSetXmlRequest.m in Sources */,
+				2752C12A1879E89200B14478 /* FLFiloCache.m in Sources */,
 				2752AB311878A78100B14478 /* FLCodeImportBaseClass.m in Sources */,
 				2752B41E1878A78300B14478 /* ZFApiHttpGetLoadPhotoSetXmlRequest.m in Sources */,
 				2752AB091878A78100B14478 /* FLCodeEnumBaseClass.m in Sources */,
@@ -14971,6 +14983,7 @@
 				2752BFD71878AE3100B14478 /* FLFramedView.m in Sources */,
 				2752B40C1878A78300B14478 /* ZFApiHttpGetLoadPhotoJsonRequest.m in Sources */,
 				2752B6691878A78400B14478 /* ZFApiHttpPostLoadPhotoSetXmlRequest.m in Sources */,
+				2752C12C1879E89200B14478 /* FLFiloCache.m in Sources */,
 				2752AB331878A78100B14478 /* FLCodeImportBaseClass.m in Sources */,
 				2752B4201878A78300B14478 /* ZFApiHttpGetLoadPhotoSetXmlRequest.m in Sources */,
 				2752AB0B1878A78100B14478 /* FLCodeEnumBaseClass.m in Sources */,
@@ -17044,6 +17057,7 @@
 				2752AD291878A78200B14478 /* FLToolTask.m in Sources */,
 				2752B9681878A78500B14478 /* ZFCreateFavoritesSetResponse.m in Sources */,
 				2752AFA91878A78200B14478 /* FLOAuthApp.m in Sources */,
+				2752C1291879E89200B14478 /* FLFiloCache.m in Sources */,
 				2752B2E21878A78300B14478 /* ZFApiHttpGetAuthenticatePlainJsonRequest.m in Sources */,
 				2752B6981878A78400B14478 /* ZFApiHttpPostMovePhotoJsonRequest.m in Sources */,
 				2752AC981878A78200B14478 /* FLWsdlMessage.m in Sources */,
@@ -17467,6 +17481,7 @@
 				2752BFD61878AE3100B14478 /* FLFramedView.m in Sources */,
 				2752B40B1878A78300B14478 /* ZFApiHttpGetLoadPhotoJsonRequest.m in Sources */,
 				2752B6681878A78400B14478 /* ZFApiHttpPostLoadPhotoSetXmlRequest.m in Sources */,
+				2752C12B1879E89200B14478 /* FLFiloCache.m in Sources */,
 				2752AB321878A78100B14478 /* FLCodeImportBaseClass.m in Sources */,
 				2752B41F1878A78300B14478 /* ZFApiHttpGetLoadPhotoSetXmlRequest.m in Sources */,
 				2752AB0A1878A78100B14478 /* FLCodeEnumBaseClass.m in Sources */,
@@ -18736,6 +18751,7 @@
 				2752BFD81878AE3100B14478 /* FLFramedView.m in Sources */,
 				2752B40D1878A78300B14478 /* ZFApiHttpGetLoadPhotoJsonRequest.m in Sources */,
 				2752B66A1878A78400B14478 /* ZFApiHttpPostLoadPhotoSetXmlRequest.m in Sources */,
+				2752C12D1879E89200B14478 /* FLFiloCache.m in Sources */,
 				2752AB341878A78100B14478 /* FLCodeImportBaseClass.m in Sources */,
 				2752B4211878A78300B14478 /* ZFApiHttpGetLoadPhotoSetXmlRequest.m in Sources */,
 				2752AB0C1878A78100B14478 /* FLCodeEnumBaseClass.m in Sources */,
